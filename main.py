@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import datetime
-
+import streamlit as st
 
 # Inicializar o driver do Selenium
 driver = webdriver.Chrome(executable_path=r"./chromedriver.exe")
